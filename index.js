@@ -1,4 +1,4 @@
-var detoxH20_data_url = 'https://api.airtable.com/v0/appme2bUqi2ONfNq6/Suppliers?api_key=key1I6vl8hY7lZc7U';
+var detoxH20_data_url = 'https://api.airtable.com/v0/appme2bUqi2ONfNq6/Menu?api_key=key1I6vl8hY7lZc7U';
 var detoxH20HTML = '';
 var detoxH20Div = $('.detoxH20');
 var renderdetoxH20DivData = function (data) {
