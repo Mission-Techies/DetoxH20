@@ -5,22 +5,28 @@ text-align: center
   text-align: center;
 }
 img{
-  width: 250px;
+  width: 100%;
   margin-bottom: 10px;
 }
 .page-header{
   margin: 0 0 10px 0;
-  background-image:url("detox 1.jpg");
+  background-image:url("mixed-berries1.jpg");
   padding: 50px;
-  background-size: contain;
+  width: 100%;
   position: center center;
   background-repeat:no-repeat;
   align-content: center;
 }
 .drink{
-  width: 30%;
-  margin-right: 1%;
+  width: 32%;
+margin: 10px;
 }
 .detoxH20{
   display: flex;
+}
+p{
+  text-align: justify;
+}
+h2{
+  text-align: center;
 }
