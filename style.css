@@ -5,8 +5,22 @@ text-align: center
   text-align: center;
 }
 img{
-  width: 250px
+  width: 250px;
+  margin-bottom: 10px;
 }
 .page-header{
-  background-color: blue
+  margin: 0 0 10px 0;
+  background-image:url("detox 1.jpg");
+  padding: 50px;
+  background-size: contain;
+  position: center center;
+  background-repeat:no-repeat;
+  align-content: center;
+}
+.drink{
+  width: 30%;
+  margin-right: 1%;
+}
+.detoxH20{
+  display: flex;
 }
