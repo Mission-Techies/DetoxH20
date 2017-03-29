@@ -19,17 +19,39 @@
   </div>
 
   <form id="my-form">
-    <label for="drink">Which Drink?</label>
-    <input type="text" name="drink" placeholder="Highlight?"/><br>
-
-    <label for="name">How many people</label>
-    <input type="text" name="count-of-people" /><br>
+    <label for="drink">Which Drink?</label><br>
+    <input type="checkbox" name="Highlight" value="Hightlight"> Highlight
+    <select name="amount-hightlight">
+       <option value="zero">0</option>
+      <option value="five">5</option>
+      <option value="ten">10</option>
+      <option value="twenty">20</option>
+    </select>
+    <br>
+    <input type="checkbox" name="Beastmood" value="Beastmood"> Beast mood
+      <select name="amount-beastmood">
+         <option value="zero">0</option>
+      <option value="five">5</option>
+      <option value="ten">10</option>
+      <option value="twenty">20</option>
+    </select>
+    <br>
+      <input type="checkbox" name="Kickstart" value="Kickstart"> Kick start
+    <select name="amount-kickstart">
+         <option value="zero">0</option>
+      <option value="five">5</option>
+      <option value="ten">10</option>
+      <option value="twenty">20</option>
+    </select>
+    <br>
+      <label for="name">How many people</label>
+    <input type="number" name="count-of-people" /><br>
 
     <label for="name">Name</label>
     <input type="text" name="name" /><br>
 
-    <label for="organization">Organization</label>
-    <input type="text" name="organization" /><br>
+    <label for="company">company</label>
+    <input type="text" name="company" /><br>
 
     <label for="address">Address</label>
     <input type="text" name="address" /><br>
@@ -37,20 +59,20 @@
     <label for="city">City</label>
     <input type="text" name="city" /><br>
 
-    <label for="when">When</label>
-    <input type="text" name="zip" placeholder="mm/dd/yy"/><br>
+    <label for="date">Date</label>
+    <input type="date" name="date" placeholder="mm/dd/yy"/><br>
 
     <label for="time">Time</label>
-    <input type="text" name="zip" placeholder="00:00am/pm"/><br>
+    <input type="time" name="zip"/><br>
 
-    <label for="Phone Number">Phone Number</label>
-    <input type="text" name="phone Number"/><br>
+    <label for="phoneNumber">Phone Number</label>
+    <input type="tel" name="phoneNumber"/><br>
 
     <label for="email">Email</label>
-    <input type="text" name="email" placeholder=".com"/><br>
+    <input type="email" name="email" placeholder=".com"/><br>
 
-     <label for="questions and concerns">Questions and concerns</label>
-    <input type="text" name="questions and concerns "placeholder="I would like to add more blue berries please"/><br><br>
+     <label for="questionsAndConcerns">Questions and concerns</label><br>
+    <textarea type="text" name="questionsAndConcerns "placeholder="I would like to add more blue berries please"></textarea><br><br>
 
      <br ><button type="submit">Detox</button>
   </form>

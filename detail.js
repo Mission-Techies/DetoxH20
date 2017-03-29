@@ -55,14 +55,14 @@ form.on('submit', function(e){
   var name = $(this).find('input[name=count-of-people]').val();
    var address = $(this).find('input[name=address]').val();
    var city = $(this).find('input[name=city]').val();
-   var organization = $(this).find('input[name=organization]').val();
+   var company = $(this).find('input[name=company]').val();
    var time = $(this).find('input[name=time]').val();
-   var phone Number = $(this).find('input[name=phone Number]').val();
+   var phoneNumber = $(this).find('input[name=phoneNumber]').val();
    var name = $(this).find('input[name=name]').val();
    var email = $(this).find('input[name=email]').val();
-   var questions and concerns = $(this).find('input[name=questions and concerns]').val();
+   var questionsAndConcerns = $(this).find('input[name=questionsAnd Concerns]').val();
    var name = $(this).find('input[name=name]').val();
-   var when = $(this).find('input[name=when]').val();
+   var date = $(this).find('input[name=date]').val();
 
    if (!name) {
       $(this).find('input[name=name]').addClass("error");
@@ -76,7 +76,7 @@ form.on('submit', function(e){
     alert('phone number missing');
    return;
   }
-  }
+
   if (!email){
     alert('email needed');
    return;
