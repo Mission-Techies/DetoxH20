@@ -9,13 +9,18 @@ img{
   margin-bottom: 10px;
 }
 .page-header{
-  margin: 0 0 10px 0;
-  background-image:url("mixed-berries1.jpg");
+  margin: auto;
+  background-image:url("detox-pictures/mixed-berries1.png");
   padding: 50px;
   width: 100%;
-  position: center center;
   background-repeat:no-repeat;
-  align-content: center;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+span{
+  font-size: 18px;
+  color: white;
 }
 .drink{
   width: 32%;
@@ -29,4 +34,8 @@ p{
 }
 h2{
   text-align: center;
+}
+.Beast-mood {
+  position: absolute;
+  left: 50%; 
 }
