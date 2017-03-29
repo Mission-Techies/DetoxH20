@@ -29,6 +29,7 @@ function renderOneDrink(drink) {
 
 
       if (drink_name) {
+        drink_info += '<h3><center><div class="panel-footer">' + ingredients + '</div></center></h3>';
         drink_info +=`<div class="panel panel-default>`;
             drink_info +=`<div class="panel-body">`;
                if (drink_pics) {
@@ -37,7 +38,6 @@ function renderOneDrink(drink) {
                    });
                }
             drink_info +=`</div>`;
-          drink_info += '<div class="panel-footer">' + ingredients + '</div>';
         drink_info +=`</div>`;
 
       }
